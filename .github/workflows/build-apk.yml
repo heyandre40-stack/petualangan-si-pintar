@@ -33,7 +33,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -o Petualangan_Si_Pintar.zip -d android-project
+          unzip -o PetualanganSiPintar_Android_Project.zip -d android-project
           echo "Isi hasil extract:"
           find android-project -maxdepth 4 -type f | head -100
 
